@@ -1,0 +1,1 @@
+.signup-button{background-color:#333;color:#fff}.login{margin-top:20rpx;font-size:30rpx;color:#404040}.signup-button uni-button:after{background-color:rgba(0,0,0,.3)}.finish-signup view{margin-top:30rpx;margin-bottom:40rpx;font-size:50rpx}.finish-signup button{background-color:#333;color:#fff}

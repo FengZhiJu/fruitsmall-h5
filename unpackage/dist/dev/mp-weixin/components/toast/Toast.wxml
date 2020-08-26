@@ -1,0 +1,1 @@
+<block wx:if="{{flag}}"><view class="toast"><text data-ref="toast" class="message vue-ref" style="{{$root.s0}}">{{message}}</text></view></block>

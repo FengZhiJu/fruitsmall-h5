@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "login": "/pages/user/children/Login",
+    "signup": "/pages/user/children/Signup"
+  }
+}

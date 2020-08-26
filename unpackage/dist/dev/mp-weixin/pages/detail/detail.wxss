@@ -1,0 +1,13 @@
+
+.align {
+	background-color: #fff;
+	padding: 20rpx 30rpx;
+	border-radius: 20rpx;
+}
+.detail {
+	padding-bottom: calc(50px + 20rpx);
+	color: #444;
+	background-color: #eee;
+}
+
+

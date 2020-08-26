@@ -1,0 +1,55 @@
+
+.all-site {
+	overflow: hidden;
+	margin-top: 30rpx;
+	padding-top: 0 !important;
+}
+.nullSite {
+	margin-top: 50rpx;
+	text-align: center;
+}
+.site-item {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	padding: 25rpx 0 30rpx 0;
+	border-bottom: 1px solid #eee;
+}
+.left {
+	-webkit-box-flex: 70%;
+	-webkit-flex: 70%;
+	        flex: 70%;
+	border-right: 1px solid #eee;
+}
+.right {
+	-webkit-box-flex: 30%;
+	-webkit-flex: 30%;
+	        flex: 30%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: space-evenly;
+	-webkit-justify-content: space-evenly;
+	        justify-content: space-evenly;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	font-size: 26rpx;
+	color: #aaa;
+}
+.right .remove {
+	color: red;
+}
+.person {
+	margin-left: 6rpx;
+	font-size: 40rpx;
+}
+.number {
+	margin-left: 20rpx;
+	font-size: 30rpx;
+	color: #888;
+}
+.item-site {
+	font-size: 30rpx;
+}
+

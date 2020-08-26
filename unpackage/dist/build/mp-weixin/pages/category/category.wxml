@@ -1,0 +1,1 @@
+<view class="category"><nav-tab vue-id="9d275500-1" navList="{{navList}}" currentIndex="{{currentIndex}}" data-event-opts="{{[['^toggleTab',[['toggleTab']]]]}}" bind:toggleTab="__e" bind:__l="__l"></nav-tab><nav-view vue-id="9d275500-2" navLabel="{{navLabel}}" bind:__l="__l"></nav-view></view>

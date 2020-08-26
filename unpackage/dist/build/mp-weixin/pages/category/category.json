@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "nav-tab": "/pages/category/children/NavTab",
+    "nav-view": "/pages/category/children/NavView"
+  }
+}

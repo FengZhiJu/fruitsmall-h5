@@ -1,0 +1,1 @@
+<block wx:if="{{carousels.length>0}}"><view><swiper class="carousels" indicator-dots="true" autoplay="true" interval="2000" circular="true"><block wx:for="{{carousels}}" wx:for-item="item" wx:for-index="index" wx:key="index"><swiper-item><image src="{{item}}"></image></swiper-item></block></swiper></view></block>

@@ -1,0 +1,1 @@
+<block wx:if="{{seckill.length>0}}"><view class="seckill"><view><view class="_h2">限时秒杀</view></view><goods vue-id="5ff85b45-1" goodsList="{{seckill}}" bind:__l="__l"></goods></view></block>

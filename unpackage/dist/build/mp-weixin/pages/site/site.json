@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "add-site": "/pages/site/children/AddSite",
+    "all-site": "/pages/site/children/AllSite"
+  }
+}

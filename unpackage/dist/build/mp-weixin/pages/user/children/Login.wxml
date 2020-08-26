@@ -1,0 +1,1 @@
+<view class="login"><our-loading vue-id="315b3af2-1" isFullScreen="{{true}}" translateY="{{50}}" active="{{isLoading}}" text="loading..." bind:__l="__l"></our-loading><view class="wx"><button class="wx-button" disabled="{{flag}}" size="mini" open-type="getUserInfo" data-event-opts="{{[['getuserinfo',[['wxLogin',['$event']]]]]}}" bindgetuserinfo="__e">微信授权登录</button></view></view>

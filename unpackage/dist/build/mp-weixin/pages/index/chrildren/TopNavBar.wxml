@@ -1,0 +1,1 @@
+<block wx:if="{{$root.g0.length>0}}"><view class="top-nav"><block wx:for="{{$root.l0}}" wx:for-item="v" wx:for-index="k" wx:key="k"><view class="nav-item"><image class="nav-item-icon" src="{{v.f0}}" data-event-opts="{{[['tap',[['toCategory',[k]]]]]}}" bindtap="__e"></image><view>{{k}}</view></view></block></view></block>

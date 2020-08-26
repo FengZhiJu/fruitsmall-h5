@@ -1,0 +1,45 @@
+
+.nav-view {
+	box-sizing: border-box;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	padding: 40rpx 50rpx 0;
+	height: calc(100vh - 95px);
+	overflow: auto;
+}
+.nav-view-item {
+	width: 200rpx;
+	height: 250rpx;
+	text-align: center;
+}
+.nav-view-item .image {
+	width: 200rpx;
+	height: 150rpx;
+}
+.nav-view {
+	height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

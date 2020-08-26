@@ -1,0 +1,51 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+.top-search .nav-bar .uni-navbar__header-btns:nth-of-type(1) {
+	position: relative;
+	left: 10rpx;
+	width: 40rpx !important;
+}
+.top-search .nav-bar .uni-navbar__header-btns:nth-child(3) {
+	position: relative;
+	right: 6rpx;
+	width: 60rpx !important;
+	font-size: 28rpx;
+	color: #555555;
+}
+.login .wx .wx-button:after {
+	background-color: rgba(0,0,0,.3);
+}
+.add-site .hint .uni-dialog-button:first-child,
+.detail .uni-dialog-button:first-child{
+	display: none;
+}
+.uni-dialog-button {
+	border: 0 !important;
+}
+

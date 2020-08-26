@@ -1,0 +1,1 @@
+<block wx:if="{{recommend.length>0}}"><view class="recommend"><view><view class="_h2">为您推荐</view></view><goods vue-id="21ef3928-1" goodsList="{{recommend}}" bind:__l="__l"></goods></view></block>

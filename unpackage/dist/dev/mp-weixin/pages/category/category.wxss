@@ -1,0 +1,17 @@
+
+.category {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	height: calc(100vh - 95px);
+}
+.category {
+	height: 100vh;
+}
+
+
+
+
+
+
+

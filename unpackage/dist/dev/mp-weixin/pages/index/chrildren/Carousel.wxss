@@ -1,0 +1,9 @@
+
+.carousels {
+	height: 400rpx;
+}
+.carousels image{
+	width: 100%;
+	height: 100%;
+}
+

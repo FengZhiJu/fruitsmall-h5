@@ -1,0 +1,21 @@
+
+.box {
+	background-color: #f6f6f6;
+	padding-bottom: 20rpx;
+}
+.page-bottom {
+	font-size: 30rpx;
+	text-align: center;
+	color: #666;
+}
+.page-bottom::after,
+.page-bottom::before{
+	display: inline-block;
+	content: "";
+	width: 150rpx;
+	height: 3rpx;
+	margin: 0 20rpx;
+	background-color: #ccc;
+	vertical-align: middle;
+}
+

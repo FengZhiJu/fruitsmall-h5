@@ -1,0 +1,1 @@
+<view class="serve align"><block wx:for="{{serve}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="serve-item"><text class="iconfont serve-icon"></text><text>{{item}}</text></view></block></view>

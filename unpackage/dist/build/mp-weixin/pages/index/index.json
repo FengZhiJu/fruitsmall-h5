@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "top-search": "/pages/index/chrildren/TopSearch",
+    "carousel": "/pages/index/chrildren/Carousel",
+    "top-nav-bar": "/pages/index/chrildren/TopNavBar",
+    "seckill": "/pages/index/chrildren/Seckill",
+    "recommend": "/components/recommend/Recommend"
+  }
+}

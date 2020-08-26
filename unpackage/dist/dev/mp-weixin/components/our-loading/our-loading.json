@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "loop": "/components/our-loading/loaders/loop"
+  },
+  "component": true
+}

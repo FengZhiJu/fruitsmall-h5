@@ -1,0 +1,30 @@
+
+.user-state.data-v-80842834 {
+	text-align: center;
+}
+.logo.data-v-80842834 {
+	width: 500rpx;
+	height: 200rpx;
+	margin: 60rpx 0;
+}
+.data-v-80842834 input {
+	display: inline-block;
+	width: 580rpx;
+	height: 70rpx;
+	padding: 10rpx;
+	border-bottom: 1px solid #333;
+	text-align: left;
+}
+.data-v-80842834 .button {
+	margin-top: 50rpx;
+}
+.data-v-80842834 button {
+	width: 150rpx;
+	height: 70rpx;
+	line-height: 70rpx;	
+	border-radius: 35rpx;
+}
+.data-v-80842834 .uni-dialog-button:first-child {
+	display: none;
+}
+

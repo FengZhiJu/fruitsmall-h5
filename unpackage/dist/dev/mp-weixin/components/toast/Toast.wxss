@@ -1,0 +1,24 @@
+
+.toast {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	background-color: transform;
+	z-index: 99999;
+}
+.message {
+	position: absolute;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	padding: 17rpx 25rpx;
+	color: #fff;
+	font-size: 27rpx;
+	background-color: rgba(0, 0, 0, .7);
+	z-index: 999999;
+	border-radius: 10rpx;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+	opacity: 0;
+}
+
