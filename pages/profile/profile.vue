@@ -106,9 +106,13 @@
 					this.$refs.apk.click();
 					clearTimeout(this.timer);
 				}, 1500);
-			}
-			
+			},
 			// #endif
+			test(){
+				// plus.runtime.launchApplication({
+				// 	pname: 'com.tencent.mm'
+				// })
+			}
 		},
 		computed: {
 			...mapState(['avatar', 'username', 'isLogin'])

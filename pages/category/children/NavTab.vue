@@ -6,7 +6,6 @@
 		:class="{'nav-tab-item': true, 'select': index == currentIndex}"
 		@click="tabClick(index)"
 		>
-		<view :class="{'message-hint': true, 'hint-display': flag}" v-if="index == 3" :style=" { opacity: hint } ">目前只有浆果类这些水果哦</view>
 		{{item}}</view>
 	</view>
 </template>
@@ -15,10 +14,7 @@
 
 	export default {
 		data() {
-			return {
-				hint: 0,
-				flag: false
-			}
+			return {}
 		},
 		components: {},
 		props: {
@@ -37,13 +33,6 @@
 			tabClick(index){
 				this.$emit('toggleTab', index)
 			}
-		},
-		mounted() {
-			setTimeout(() => this.hint = 1, 1000)
-			setTimeout(() => {
-				this.hint = 0;
-				setTimeout(() => this.flag = true, 600);
-			}, 3500);
 		}
 	}
 </script>
@@ -66,25 +55,5 @@
 	}
 	.select {
 		background-color: #fff;
-	}
-	.message-hint {
-		box-sizing: border-box;
-		position: absolute;
-		top: -100rpx;
-		right: -150rpx;
-		width: 210rpx;
-		height: 210rpx;
-		padding: 37rpx 20rpx;
-		text-align: center;
-		font-size: 25rpx;
-		line-height: 30rpx;
-		word-wrap: break-word;
-		background: url('~@/static/message.png') no-repeat;
-		background-size: 100%;
-		transition: all .6s;
-		z-index: 99;
-	}
-	.hint-display {
-		display: none;
 	}
 </style>
